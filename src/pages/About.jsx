@@ -26,7 +26,6 @@ function About() {
             <div className="profile-large-avatar" style={{ background: 'var(--grad-primary)' }}>F</div>
             <div className="profile-meta">
               <h2>Faisal Rahmat</h2>
-              <p>Frontend Developer & Interface Designer</p>
             </div>
           </div>
           <p className="profile-paragraph" style={{ fontSize: '1rem', lineHeight: '1.7', color: 'var(--text-secondary)' }}>

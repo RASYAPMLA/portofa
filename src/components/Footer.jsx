@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="portfolio-footer">
-      <div>© 2026 Faisal Rahmat. Built with React, Router & Vite.</div>
+      <div>© 2026 Faisal Rahmat.</div>
     </footer>
   );
 }

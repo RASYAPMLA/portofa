@@ -274,17 +274,9 @@ function Home() {
               <div className="tech-icon-wrapper"><Layers size={20} /></div>
               <span className="tech-name">Tailwind CSS</span>
             </div>
-            <div className="tech-icon-box" data-tech="redux">
-              <div className="tech-icon-wrapper"><Zap size={20} /></div>
-              <span className="tech-name">Redux Toolkit</span>
-            </div>
             <div className="tech-icon-box" data-tech="node">
               <div className="tech-icon-wrapper"><Layers size={20} /></div>
               <span className="tech-name">Node.js</span>
-            </div>
-            <div className="tech-icon-box" data-tech="git">
-              <div className="tech-icon-wrapper"><GitBranch size={20} /></div>
-              <span className="tech-name">Git Control</span>
             </div>
             <div className="tech-icon-box" data-tech="vite">
               <div className="tech-icon-wrapper"><Zap size={20} /></div>
