@@ -30,6 +30,7 @@ import projectBioskopImg from '../assets/project_bioskop.png';
 import projectEcommerceImg from '../assets/project_ecommerce.png';
 import projectKalkulatorImg from '../assets/project_kalkulator.png';
 import projectGhibliImg from '../assets/project_ghibli.png';
+import cvFile from '../assets/CV Faisal Rahmat.pdf';
 
 const GithubIcon = () => (
   <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -162,7 +163,7 @@ function Home() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/cv_faisal.pdf';
+    link.href = cvFile;
     link.download = 'CV_Faisal_Rahmat.pdf';
     document.body.appendChild(link);
     link.click();
